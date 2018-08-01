@@ -14,9 +14,11 @@
         <!--helloworld-->
         <module>helloworld</module>
 
-
         <!--springboot配置-->
         <module>springboot-config</module>
+
+        <!--springboot-redis-->
+        <module>springboot-redis</module>
     </modules>
 
 </project>

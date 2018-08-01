@@ -14,7 +14,7 @@ public class BookController {
 
     //两种配置方式
 //    @Autowired
-//    private BookConfig bookConfig;
+// private BookConfig bookConfig;
 
     @Autowired
     private BookComponent bookComponent;

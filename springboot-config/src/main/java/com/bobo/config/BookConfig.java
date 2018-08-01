@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "book")
 @Data
 public class BookConfig {
-
     private String name;
 
     private String writer;
