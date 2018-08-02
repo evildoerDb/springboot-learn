@@ -21,7 +21,7 @@
         <module>springboot-redis</module>
 
         <!--springboot-json-->
-        <module>apringboot-json</module>
+        <module>springboot-json</module>
     </modules>
 
 </project>
