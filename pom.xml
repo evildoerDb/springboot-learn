@@ -19,6 +19,9 @@
 
         <!--springboot-redis-->
         <module>springboot-redis</module>
+
+        <!--springboot-json-->
+        <module>apringboot-json</module>
     </modules>
 
 </project>
