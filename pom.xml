@@ -22,6 +22,8 @@
 
         <!--springboot-json-->
         <module>springboot-json</module>
+        <!--springboot-redis-cache-->
+        <module>springboot-redis-cache</module>
     </modules>
 
 </project>
