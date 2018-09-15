@@ -21,9 +21,13 @@
         <module>springboot-redis</module>
 
         <!--springboot-json-->
-        <module>springboot-json</module>
+        <module></module>
+        <module>springboot-dubbo-client</module>
+        <module>springboot-dubbo-server</module>
         <!--springboot-redis-cache-->
         <module>springboot-redis-cache</module>
+        <!--kafkademo-->
+        <module>kafkademo</module>
     </modules>
 
 </project>
