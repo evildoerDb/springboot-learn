@@ -21,13 +21,20 @@
         <module>springboot-redis</module>
 
         <!--springboot-json-->
-        <module></module>
+        <!--<module></module>-->
+        <!--dubbo-->
         <module>springboot-dubbo-client</module>
         <module>springboot-dubbo-server</module>
+
         <!--springboot-redis-cache-->
         <module>springboot-redis-cache</module>
+
         <!--kafkademo-->
         <module>kafkademo</module>
+
+        <!--elasticsearch-->
+        <module>elasticsearch</module>
     </modules>
+
 
 </project>
