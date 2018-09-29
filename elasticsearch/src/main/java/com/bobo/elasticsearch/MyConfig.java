@@ -19,7 +19,7 @@ public class MyConfig {
     public TransportClient client() throws Exception {
         InetSocketTransportAddress node = new InetSocketTransportAddress(InetAddress.getByName("localhost"),9300);//tcp端口是9300
 
-        Settings settings = Settings.builder().put("cluster.name","wali").build();
+        Settings settings = Settings.builder().put("cluster.name","sanxiongdi").build();
 
         TransportClient client = new PreBuiltTransportClient(settings);
         client.addTransportAddress(node);

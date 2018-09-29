@@ -34,6 +34,9 @@
 
         <!--elasticsearch-->
         <module>elasticsearch</module>
+
+        <!--spring-aop-->
+        <module>spring-aop-demo</module>
     </modules>
 
 
