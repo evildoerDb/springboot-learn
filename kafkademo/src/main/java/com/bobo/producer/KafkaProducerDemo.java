@@ -26,10 +26,16 @@ public class KafkaProducerDemo {
         //创建生产者对象
         KafkaProducer<String,String> producer = new KafkaProducer<>(properties);
         //创建消息实体  指定topic、key、value
-        ProducerRecord<String,String> record = new ProducerRecord<>("Hello-world","haha","from java client");
+        ProducerRecord<String,String> record = new ProducerRecord<>("Hello-Kafka","haha","test");
 
         //发送消息
-        producer.send(record);
+        try{
+
+            System.out.println("发送消息结果是："+producer.send(record).get());
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
 
         System.out.println("消息发送成功");
         producer.close();

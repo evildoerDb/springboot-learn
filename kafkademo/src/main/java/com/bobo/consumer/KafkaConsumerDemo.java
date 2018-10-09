@@ -28,7 +28,7 @@ public class KafkaConsumerDemo {
         //创建消费者对象
         KafkaConsumer<String,String> consumer = new KafkaConsumer<>(properties);
         //订阅主题
-        consumer.subscribe(Arrays.asList("Hello-world"));
+        consumer.subscribe(Arrays.asList("Hello-Kafka"));
 
         while (true) {
             //消费消息
